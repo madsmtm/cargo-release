@@ -537,7 +537,7 @@ impl RateLimit {
     pub fn from_defaults() -> Self {
         Self {
             new_packages: Some(5),
-            existing_packages: Some(30),
+            existing_packages: Some(300),
         }
     }
 
